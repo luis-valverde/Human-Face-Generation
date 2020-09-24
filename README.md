@@ -12,7 +12,13 @@
 
 This repository contains all my work for the Udacity's Deep Learning Nanodegree Program.
 
-TODO: Complete this section
+The goal in this project was to perform a Deep Generative Adversarial Network (DCGAN) to generate new images of faces
+that look as realistic as possible.
+
+To accomplish this, I implemented DCGAN model adversarial networks (discriminator and generator) with PyTorch tracking
+their losses to avoid overfitting. Then, initialized hyperparameters (learning rate, epochs) and network weights to
+help the model to converge. Finally, I trained the DCGAN network tracking the generator and discriminator losses to
+avoid overfitting.
 
 ## Project Overview
 
@@ -43,11 +49,31 @@ more included.
 
 This repository contains three files needed to solve the project.
 
-TODO: Complete this section
+1. **dlnd_face_generation.ipynb:** This is the main file where I performed the work on the project.
+2. **dlnd_face_generation.html:** This is an HTML report of the Jupyter notebook.
+3. **assets/processed_face_data.png:** Example of human faces.
+4. **problem_unittests.py:** Unit tests to verify correct functionality of the algorithms created.
 
 ## How to Run
 
 In the Terminal or Command Prompt, navigate to the folder on your machine where you've put the project files, and then
 use the command:
 
-TODO: Complete this section
+```bash
+jupyter notebook dlnd_face_generation.ipynb
+```
+
+ to open up a browser window or tab to work with your notebook.
+ Alternatively, you can use the command:
+
+ ```bash
+jupyter notebook
+```
+
+or
+
+```bash
+ipython notebook
+```
+
+and navigate to the notebook file (dlnd_face_generation.ipynb) in the browser window that opens.
